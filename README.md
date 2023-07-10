@@ -1,7 +1,7 @@
 Stereo Video Super-Resolution via Exploiting View-Temporal Correlations
 ====
 
-> Stereo Video Super-Resolution via Exploiting View-Temporal Correlations, In *ACM MM* 2021.
+> Stereo Video Super-Resolution via Exploiting View-Temporal Correlations, In *ACM MM* 2021.\
 > Ruikang Xu, Zeyu Xiao, Mingde Yao, Yueyi Zhang, Zhiwei Xiong. 
 
 [Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475189)|[Supplemental Material](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3474085.3475189&file=mfp0182aux.zip)|[Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3474085.3475189&file=mm2021.mp4)
@@ -19,6 +19,13 @@ Stereo Video Super-Resolution via Exploiting View-Temporal Correlations
 * The KITTI-2015 dataset can be downloaded from this [link](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo).
 
 ## Quick Start
+We take the sceneflow dataset as an example:
+
+* Prepare text files for loading data:
+```
+cd dataPrepare && python creatTxt_sceneflow.py
+```
+
 * Train the model:
 ```
 cd code && python train.py
