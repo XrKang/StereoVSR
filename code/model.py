@@ -289,7 +289,6 @@ if __name__ == '__main__':
     arg.scale = 4
     arg.embed_ch = 64
 
-    arg.n_SPA_blocks = 3
     arg.nframes = 3*2
     arg.groups = 8
     arg.front_RBs = 5
